@@ -1,0 +1,142 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    padding-top: 100px;
+    border: none;
+    top: 0;
+    left: 0;
+    border: none;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #05053b;
+    background: linear-gradient(180deg, rgba(5, 5, 59, 1) 0%, rgba(179, 97, 255, 1) 100%);
+}
+
+.box-logo{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.LOGO{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 1000; /* Đảm bảo nằm trên các phần khác */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    border-radius: 60px;
+    background: linear-gradient(95deg, rgba(238, 64, 247, 1) 0%, rgba(179, 97, 255, 1) 100%);
+    padding: 0 20px;
+}
+
+
+.menu .home{
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 30px;
+
+    text-decoration: none;
+}
+
+.background .box-content1{
+    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.background .box-content2{
+    margin-top: 10px;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box-content2 p,.box-content1 p {
+    margin: 0;
+}
+
+.section {
+    padding-top: 100px;
+    border: none;
+    top: 0;
+    left: 0;
+    border: none;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #bebeff;
+}
+
+.section-content h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-content img {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+
+.section-content p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.section-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+    display: block;
+    margin:0 auto;
+}
+
